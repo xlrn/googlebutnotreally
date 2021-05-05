@@ -42,3 +42,40 @@ img {
     top: 8px;
     color: grey;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li-left {
+    float: left;
+}
+
+.li-right {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:link {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}

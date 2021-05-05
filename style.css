@@ -22,9 +22,18 @@ img {
     padding-left: 40px;
 }
 
-.searchButton {
+.buttonWrapper {
     text-align: center;
     padding-top: 30px;
+}
+
+.searchButton {
+    height: 40px;
+    width: 130px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+    border-radius: 5px;
 }
 
 .material-icons.position {

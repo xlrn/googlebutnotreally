@@ -12,12 +12,24 @@ img {
 }
 
 #searchBar {
-    width: 450px;
-    height: 30px;
+    width: 484px;
+    height: 35px;
     margin-top: 40px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: lightgray;
+    outline: 0;
+    padding-left: 40px;
 }
 
 .searchButton {
     text-align: center;
     padding-top: 30px;
+}
+
+.material-icons.position {
+    position: relative;
+    left: 35px;
+    top: 8px;
+    color: grey;
 }

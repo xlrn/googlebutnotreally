@@ -1,6 +1,23 @@
-#googleLogo {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%)
+#mainGoogle {
+    padding: 200px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#searchWrapper {
+    text-align: center;
+}
+
+#searchBar {
+    width: 450px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.searchButton {
+    text-align: center;
+    padding-top: 30px;
 }
